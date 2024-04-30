@@ -89,7 +89,7 @@ function init() {
 
 		// add the camera to the scene
 		scene.add(camera);
-        scene.fog = new THREE.FogExp2(0x322E3F, 0.001);
+        scene.fog = new THREE.FogExp2(0x000000, 0.001);
 
 		camera.position.z = 450;
 
