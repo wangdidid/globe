@@ -75,7 +75,7 @@ function init() {
 		FAR = 10000;
 
 		renderer = new THREE.WebGLRenderer();
-        renderer.setClearColor( 0x000000, 1);
+        renderer.setClearColor( 0x322E3F, 1);
 		camera =new THREE.PerspectiveCamera(VIEW_ANGLE,ASPECT,NEAR,FAR);
 
 		window.addEventListener('resize', function() {
@@ -89,7 +89,7 @@ function init() {
 
 		// add the camera to the scene
 		scene.add(camera);
-        scene.fog = new THREE.FogExp2(0x000000, 0.001);
+        scene.fog = new THREE.FogExp2(0x322E3F, 0.001);
 
 		camera.position.z = 450;
 
